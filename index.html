@@ -35,6 +35,13 @@
         .btn-primary:hover {
             background-color: #4338ca;
         }
+        .btn-secondary {
+            background-color: #6b7280;
+            color: white;
+        }
+        .btn-secondary:hover {
+            background-color: #4b5563;
+        }
         .step-number {
             background-color: #4f46e5;
             color: white;
@@ -47,6 +54,18 @@
             font-size: 1.5rem;
             font-weight: bold;
             flex-shrink: 0;
+        }
+        .demo-link {
+            display: block;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            background-color: #f3f4f6;
+            font-weight: 600;
+            text-align: center;
+            transition: background-color 0.2s;
+        }
+        .demo-link:hover {
+            background-color: #e5e7eb;
         }
     </style>
 </head>
@@ -71,6 +90,17 @@
                     <li><strong>Save to Synthesizer:</strong> Use this for a quick, one-click transfer if you are using the same computer and browser for the entire project.</li>
                     <li><strong>Download Summary:</strong> Use this to save a permanent .txt file. This is the best option if you switch between computers or want a personal backup.</li>
                 </ul>
+            </div>
+        </div>
+        
+        <!-- UPDATED: Demo Library Section -->
+        <div class="card p-8 mb-12 bg-gray-50">
+            <h2 class="text-2xl font-bold mb-4 text-center">See It in Action: Completed Examples</h2>
+            <p class="text-gray-700 mb-6 text-center">Before you begin, you can explore a pre-populated PRF to see the depth of reflection this project makes possible. Choose a perspective that interests you:</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <a href="https://rmertzman-tech.github.io/PRF-Synthesizer/" target="_blank" class="demo-link">The Statesman: Nelson Mandela</a>
+                <a href="https://rmertzman-tech.github.io/Rachel-Carson/" target="_blank" class="demo-link">The Environmentalist: Rachel Carson</a>
+                <!-- Add more demo links here as they are created -->
             </div>
         </div>
 
